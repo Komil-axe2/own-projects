@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #faf6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-dropdown {
+    font-weight: 600;
+    padding: 10px 40px;
+    font-size: 1rem;
+    background-color: #3b3b3b;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.btn-dropdown:hover {
+    background-color: #4b4b4b;
+}
+
+.dropdown {
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.menu-list {
+    width: 155px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-list li {
+    margin: 5px 0;
+}
+
+#menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 155px;
+    height: 40px;
+}
+
+#menu li a {
+    background-color: #4b4b4b;
+}
+
+/* .hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: hidden;
+    animation: slideIn 0.5s ease-in-out;
+} */
+
+/* @keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+.btn {
+    margin-top: 15%;
+    width: 17rem;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+
+.btn:active {
+    scale: 0.92;
+}
+
+.btn:hover {
+    background: rgb(2, 29, 78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
